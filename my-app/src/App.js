@@ -1,12 +1,12 @@
 import React from "react";
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+// import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import "./App.css";
 import Chatbox from "./Components/Chatbox";
 
 function App() {
   return (
     <div className="App">
-      <header>
+      {/* <header>
         <Navbar sticky="top">
           <Navbar.Brand href="#home">Transportation Challenge</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -28,7 +28,7 @@ function App() {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-      </header>
+      </header> */}
       <Chatbox />
     </div>
   );
